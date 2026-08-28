@@ -27,3 +27,21 @@ Dot Plot | 100% Stacked Bar | Conditional Formatting
 - Gender pay gap visible across all departments
 - Only 5.8% of applicants convert to joiners
 - Burnout Risk: 27.61% — amber warning zone
+
+
+## 📸 Dashboard Screenshots
+
+### Page 1 — Workforce Overview
+![Workforce Overview](./page1-workforce-overview.png)
+
+### Page 2 — Attrition Risk
+![Attrition Risk](./page2-attrition-risk.png)
+
+### Page 3 — Engagement & Sentiment
+![Engagement](./page3-engagement-sentiment.png)
+
+### Page 4 — Compensation & Pay Equity
+![Compensation](./page4-compensation-equity.png)
+
+### Page 5 — Recruitment Pipeline
+![Recruitment](./page5-recruitment-pipeline.png)
