@@ -32,7 +32,7 @@ turn complex data into clear business decisions.
 
 If your business is struggling to make sense of its numbers — let's connect!
 
-- 💼 https://upwork.com/freelancers/swapnilchavhan4
+- 💼 https://www.upwork.com/freelancers/~018ebdde5e1dfb388f?companyReference=2065484030924946758&mp_source=share
 - 🔗 https://www.linkedin.com/in/swapnilchavhan/
 - 📧 swapnilchavhan5@gmail.com
 
