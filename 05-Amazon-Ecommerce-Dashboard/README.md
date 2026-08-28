@@ -26,3 +26,18 @@ Scatter Plot | Treemap | Slicers
 - 10K returns = bigger profit leak than discounts
 - South region drives ₹1.83M more per transaction
 - 55+ age group = highest spending segment
+
+
+## 📸 Dashboard Screenshots
+
+### Page 1 — E-Commerce Overview
+![E-Commerce Overview](./page1-ecommerce-overview.png)
+
+### Page 2 — Sales & Profit Analysis
+![Sales & Profit](./page2-sales-profit.png)
+
+### Page 3 — Customer & Product Analysis
+![Customer Analysis](./page3-customer-product.png)
+
+### Page 4 — Operations & Fulfillment
+![Operations](./page4-operations-fulfillment.png)
