@@ -22,3 +22,11 @@ Conditional Formatting | KPI Cards
 - Total Revenue: ₹212M | Net Income: ₹32M
 - EBITDA Margin tracked monthly vs target
 - Budget variance flagged automatically in red/green
+
+  ## 📸 Dashboard Screenshots
+
+### Page 1 — P&L Overview
+![P&L Overview](./page1-pl-overview.png)
+
+### Page 2 — Sales Performance
+![Sales Performance](./page2-sales-performance.png)
