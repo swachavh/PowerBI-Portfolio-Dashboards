@@ -25,3 +25,14 @@ Box & Whisker Plot | Decomposition Tree (AI) | Gauge Chart
 - Kolkata Park St branch — highest exposure (₹220M)
 - Credit & Operational Risk in critical quadrant
 - Recovery Rate: 85.06% — on target
+
+## 📸 Dashboard Screenshots
+
+### Page 1 — Risk Overview
+![Risk Overview](./page1-risk-overview.png)
+
+### Page 2 — Portfolio Analysis
+![Portfolio Analysis](./page2-portfolio-analysis.png)
+
+### Page 3 — Branch Performance
+![Branch Performance](./page3-branch-performance.png)
