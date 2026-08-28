@@ -23,3 +23,17 @@ Key Influencers (AI) | Heatmap Matrix | Decomposition Tree
 - Total Revenue: ₹282M | Avg Occupancy: 80%
 - Food Quality = #1 guest complaint category
 - Grand Brasserie top F&B outlet at ₹13.2M revenue
+
+  ## 📸 Dashboard Screenshots
+
+### Page 1 — Executive Overview
+![Executive Overview](./page1-executive-overview.png)
+
+### Page 2 — Revenue Analysis
+![Revenue Analysis](./page2-revenue-analysis.png)
+
+### Page 3 — Guest Experience
+![Guest Experience](./page3-guest-experience.png)
+
+### Page 4 — F&B Performance
+![F&B Performance](./page4-fb-performance.png)
