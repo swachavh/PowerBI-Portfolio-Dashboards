@@ -15,6 +15,7 @@ turn complex data into clear business decisions.
 | 3 | [Credit Risk & NPA Dashboard](./03-Credit-Risk-NPA-Dashboard) | Banking | Risk Matrix, Dark Theme |
 | 4 | [HR People Analytics Dashboard](./04-HR-People-Analytics-Dashboard) | HR Tech | Star Schema, Smart Narrative |
 | 5 | [Amazon E-Commerce Dashboard](./05-Amazon-Ecommerce-Dashboard) | E-Commerce | AI Decomposition Tree |
+| 6 | [IT Service Operations Dashboard](./06-IT-Service-Operations-Dashboard) | IT Operations | YoY Trends, KPI Cards, Problem Management |
 
 ---
 
