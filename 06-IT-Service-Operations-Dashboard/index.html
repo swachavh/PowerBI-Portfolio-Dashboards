@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Apex Financial Services: IT Service Operations</title>
+<style>
+:root{--bg:#f3f6fa;--card:#fff;--ink:#1b2433;--mut:#5b6677;--line:#e1e7ef;--nav:#0f2a47;--blue:#2a78d6;--good:#1f9d63;--warn:#c27c00;--bad:#d03b3b;--tint:#eaf2fc;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1623;--card:#162133;--ink:#e8edf5;--mut:#9aa7ba;--line:#243249;--nav:#0a1a2e;--blue:#4a93ec;--good:#34c283;--warn:#e0a21a;--bad:#ea6868;--tint:#1c2d47;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1623;--card:#162133;--ink:#e8edf5;--mut:#9aa7ba;--line:#243249;--nav:#0a1a2e;--blue:#4a93ec;--good:#34c283;--warn:#e0a21a;--bad:#ea6868;--tint:#1c2d47;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:14px;line-height:1.45}
+header{background:var(--nav);color:#fff;padding:14px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:10px;justify-content:space-between}
+header h1{font-size:17px;font-weight:600;margin:0}
+header small{display:block;font-size:12px;color:#aebfd6;margin-top:2px}
+.pill{background:#1d4673;color:#fff;border-radius:999px;padding:5px 12px;font-size:12px}
+main{max-width:1100px;margin:0 auto;padding:14px}
+.grid{display:grid;gap:12px;margin-bottom:12px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.two{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;min-width:0}
+.card h2{font-size:14px;font-weight:600;margin:0 0 2px}
+.sub{font-size:12px;color:var(--mut);margin:0 0 10px}
+.k{border-top:3px solid var(--blue)}
+.k .l{font-size:12px;color:var(--mut)}
+.k .v{font-size:26px;font-weight:600;margin:2px 0}
+.k .d{font-size:12px;font-weight:500}
+.g{color:var(--good)}.w{color:var(--warn)}.b{color:var(--bad)}
+.k .d span{color:var(--mut);font-weight:400}
+.tog{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;float:right}
+.tog button{background:transparent;border:0;color:var(--mut);padding:5px 12px;font-size:12px;cursor:pointer}
+.tog button.on{background:var(--blue);color:#fff}
+.ch{position:relative;width:100%}
+.leg{display:flex;gap:14px;font-size:12px;color:var(--mut);margin:0 0 6px;flex-wrap:wrap}
+.leg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px}
+.wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:560px}
+th{text-align:left;font-size:12px;color:var(--mut);font-weight:500;padding:6px 8px;border-bottom:1px solid var(--line)}
+td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+.bd{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:500;white-space:nowrap}
+.bg{background:rgba(31,157,99,.15);color:var(--good)}.ba{background:rgba(224,162,26,.18);color:var(--warn)}.bb{background:var(--tint);color:var(--blue)}.bn{background:rgba(120,130,150,.18);color:var(--mut)}
+.fn{display:flex;align-items:center;gap:8px;margin:7px 0;font-size:12px}
+.fn .n{width:118px;color:var(--mut);flex:none}
+.fn .bar{height:20px;border-radius:4px;background:var(--blue);color:#fff;font-weight:500;padding:0 8px;display:flex;align-items:center}
+.imp{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.imp div{background:var(--tint);border-radius:8px;padding:10px}
+.imp b{display:block;font-size:20px;font-weight:600}
+.imp span{font-size:12px;color:var(--mut)}
+footer{text-align:center;color:var(--mut);font-size:12px;padding:6px 0 18px}
+</style></head><body>
+<header><div><h1>Apex Financial Services: IT Service Operations</h1><small>Incident and problem management overview · Updated 24 Oct 2026</small></div><span class="pill">Last 30 days vs same period last year</span></header>
+<main>
+<div class="grid kpis">
+<div class="card k"><div class="l">Incidents opened</div><div class="v">812</div><div class="d g">▼ 12.4% <span>vs last year (927)</span></div></div>
+<div class="card k"><div class="l">Incidents resolved</div><div class="v">797</div><div class="d g">98.2% <span>of opened</span></div></div>
+<div class="card k"><div class="l">Open backlog</div><div class="v">148</div><div class="d g">▼ 9.8% <span>vs last year</span></div></div>
+<div class="card k"><div class="l">SLA met</div><div class="v">94.3%</div><div class="d g">▲ 2.1 pts <span>vs last year</span></div></div>
+<div class="card k"><div class="l">Mean time to resolve</div><div class="v">5.6 h</div><div class="d g">▼ 18% <span>vs last year</span></div></div>
+<div class="card k"><div class="l">Open problem tickets</div><div class="v">22</div><div class="d g">▼ 6 <span>vs last year</span></div></div>
+</div>
+
+<div class="card" style="margin-bottom:12px">
+<div class="tog" id="tg"><button class="on" data-m="w">Weekly</button><button data-m="m">Monthly</button></div>
+<h2>Incident volume trend</h2><p class="sub" id="ts">Last 12 weeks, this year vs same weeks last year</p>
+<div class="leg"><span><i style="background:#2a78d6"></i>This year</span><span><i style="background:#8a96a8"></i>Same time last year</span></div>
+<div class="ch" style="height:230px"><canvas id="c1" role="img" aria-label="Line chart of incident volume this year compared with the same period last year">Incident volume this year versus last year.</canvas></div>
+</div>
+
+<div class="grid two">
+<div class="card"><h2>Incidents by category</h2><p class="sub">This month vs same month last year</p>
+<div class="leg"><span><i style="background:#2a78d6"></i>This year</span><span><i style="background:#8a96a8"></i>Last year</span></div>
+<div class="ch" style="height:250px"><canvas id="c2" role="img" aria-label="Grouped bar chart of incidents by category, this year and last year">Incidents by category.</canvas></div></div>
+<div class="card"><h2>How incidents were resolved</h2><p class="sub">Closed incidents, last 30 days</p>
+<div class="ch" style="height:190px"><canvas id="c3" role="img" aria-label="Doughnut chart of resolution types">Permanent fix 46 percent, workaround 31 percent, restart or temporary 15 percent, pending 8 percent.</canvas></div>
+<div class="leg" style="margin-top:8px"><span><i style="background:#1f9d63"></i>Permanent fix 46%</span><span><i style="background:#2a78d6"></i>Workaround 31%</span><span><i style="background:#c27c00"></i>Restart 15%</span><span><i style="background:#8a96a8"></i>Pending 8%</span></div></div>
+</div>
+
+<div class="card" style="margin-bottom:12px"><h2>Repeating issues and linked problem tickets</h2><p class="sub">Top recurring issues, last 30 days. Repeat incident rate 11.8%, down 4.1 pts vs last year.</p>
+<div class="wrap"><table><thead><tr><th>Recurring issue</th><th>Incidents</th><th>Problem</th><th>Status</th><th>Resolution</th></tr></thead><tbody>
+<tr><td>VPN drops after Windows update</td><td>64</td><td>PRB0010482</td><td><span class="bd bg">Permanent fix applied</span></td><td>Faulty patch rolled back, VPN client policy corrected</td></tr>
+<tr><td>Payment gateway timeouts in batch window</td><td>41</td><td>PRB0010455</td><td><span class="bd bg">Permanent fix applied</span></td><td>Connection pool resized, batch jobs rescheduled</td></tr>
+<tr><td>SSO password reset loop</td><td>37</td><td>PRB0010419</td><td><span class="bd bb">RCA in progress</span></td><td>Identity provider sync delay under review</td></tr>
+<tr><td>Calendar sync lag in Outlook</td><td>29</td><td>PRB0010397</td><td><span class="bd ba">Workaround active</span></td><td>Profile rebuild script, vendor patch awaited</td></tr>
+<tr><td>Trade report refresh failures (data gateway)</td><td>22</td><td>PRB0010371</td><td><span class="bd bg">Permanent fix applied</span></td><td>Service account role fixed, gateway monitoring added</td></tr>
+<tr><td>Printer queue stuck on floor 4</td><td>18</td><td>PRB0010360</td><td><span class="bd bn">Verified and closed</span></td><td>Print server driver replaced</td></tr>
+</tbody></table></div></div>
+
+<div class="grid two">
+<div class="card"><h2>Problem management pipeline</h2><p class="sub">Problem tickets raised in the last 90 days</p>
+<div class="fn"><span class="n">Problems raised</span><div class="bar" style="width:100%">48</div></div>
+<div class="fn"><span class="n">RCA completed</span><div class="bar" style="width:85%">41</div></div>
+<div class="fn"><span class="n">Workaround in place</span><div class="bar" style="width:69%">33</div></div>
+<div class="fn"><span class="n">Permanent fix applied</span><div class="bar" style="width:54%;background:var(--good)">26</div></div>
+<div class="fn"><span class="n">Verified and closed</span><div class="bar" style="width:40%;background:var(--good)">19</div></div></div>
+<div class="card"><h2>Impact of permanent fixes</h2><p class="sub">Since the fixes went live</p>
+<div class="imp"><div><b class="g">312</b><span>Repeat incidents avoided</span></div><div><b>26</b><span>Permanent fixes applied</span></div><div><b>1,240 h</b><span>Support effort saved</span></div><div><b>11.8%</b><span>Repeat incident rate</span></div></div></div>
+</div>
+<footer>Sample data for illustration only</footer>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+var cs=getComputedStyle(document.documentElement),mut=cs.getPropertyValue('--mut').trim()||'#5b6677',line=cs.getPropertyValue('--line').trim()||'#e1e7ef',blue=cs.getPropertyValue('--blue').trim()||'#2a78d6',card=cs.getPropertyValue('--card').trim()||'#fff';
+var D={w:{l:['W32','W33','W34','W35','W36','W37','W38','W39','W40','W41','W42','W43'],a:[214,198,226,205,191,187,203,178,172,181,165,158],b:[236,229,241,238,224,219,231,226,214,209,205,199],t:'Last 12 weeks, this year vs same weeks last year'},
+m:{l:['Nov','Dec','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct'],a:[905,870,842,880,860,838,851,845,832,820,805,812],b:[998,964,951,972,960,949,958,944,931,925,930,927],t:'Last 12 months, this year vs same months last year'}};
+function ax(o){return Object.assign({ticks:{color:mut,font:{size:11}},grid:{color:line},border:{display:false}},o||{})}
+var base={responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},interaction:{mode:'index',intersect:false}};
+var c1=new Chart(document.getElementById('c1'),{type:'line',data:{labels:D.w.l,datasets:[{data:D.w.a,borderColor:blue,backgroundColor:blue,borderWidth:2.5,tension:.3,pointRadius:3},{data:D.w.b,borderColor:'#8a96a8',backgroundColor:'#8a96a8',borderWidth:2,borderDash:[6,4],tension:.3,pointRadius:0}]},options:Object.assign({},base,{scales:{x:ax({grid:{display:false}}),y:ax({beginAtZero:false})}})});
+document.getElementById('tg').addEventListener('click',function(e){var m=e.target.getAttribute('data-m');if(!m)return;Array.prototype.forEach.call(this.children,function(b){b.classList.toggle('on',b===e.target)});c1.data.labels=D[m].l;c1.data.datasets[0].data=D[m].a;c1.data.datasets[1].data=D[m].b;c1.update();document.getElementById('ts').textContent=D[m].t});
+new Chart(document.getElementById('c2'),{type:'bar',data:{labels:['Application','Access','Network','Infrastructure','Batch and reports','Database'],datasets:[{data:[232,164,148,96,94,78],backgroundColor:blue,borderRadius:3,barThickness:10},{data:[268,190,171,110,112,92],backgroundColor:'#8a96a8',borderRadius:3,barThickness:10}]},options:Object.assign({},base,{indexAxis:'y',scales:{x:ax({beginAtZero:true}),y:ax({grid:{display:false}})}})});
+new Chart(document.getElementById('c3'),{type:'doughnut',data:{labels:['Permanent fix','Workaround','Restart','Pending'],datasets:[{data:[46,31,15,8],backgroundColor:['#1f9d63','#2a78d6','#c27c00','#8a96a8'],borderColor:card,borderWidth:2}]},options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{display:false}}}});
+</script></body></html>
